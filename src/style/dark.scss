@@ -1,0 +1,127 @@
+.app.dark {
+  background-color: #111;
+  color: whitesmoke;
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .table {
+    background-color: #111;
+
+    .tableCell {
+      color:whitesmoke;
+    }
+  }
+  .widget {
+    background-color: #0e0e0ebd;
+    opacity: 0.8;
+  }
+ .featured{
+    background-color: #0e0e0ebd;
+ }
+ .dark{
+  display: none !important;
+ }
+ .light{
+  display: block !important;
+ }
+  .navbar {
+    color: rgb(126, 126, 126);
+    background: #16161d;
+    border-color: #333;
+
+    .search {
+      border-color: rgb(116 116 116);
+      color: rgb(255, 255, 255);
+      background: #444242;
+    }
+    ::placeholder { 
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      opacity: 1; 
+    }
+  }
+
+  .sidebar {
+    background: #16161d;
+    border-color: #333;
+    span{
+      color: #a9a8a8 !important;
+    }
+    .title{
+      color: cyan;
+    }
+    .top {
+      .logo {
+        color: #999;
+      }
+    }
+    hr {
+      border-color: #333;
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+
+        .icon {
+          color: #c2c0c0;
+        }
+      }
+    }
+  }
+  .chart{
+    background-color: #0e0e0ebd;
+  }
+  .listContainer{
+    background-color: #393942eb;
+  }
+
+  .datatable {
+    .datagrid {
+      color: rgb(255, 251, 251);
+      border: none;
+      background-color: #16161d;
+
+      .viewButton,
+      .deleteButton,
+      .cellWithStatus {
+        color: gray;
+        border: none;
+      }
+    }
+  }
+  .newContainer{
+    background-color:rgba(57, 57, 66, 0.9215686275) ;
+  .top,
+    .bottom {
+      background-color: #16161d;
+    
+      button{
+        opacity: 0.6;
+      }
+    }
+  }
+  .singleContainer{
+    background-color: rgba(57, 57, 66, 0.9215686275);
+    .left{
+      background-color: #0e0e0ebd !important;
+    }
+    .bottom{
+      background-color: rgba(0, 0, 0, 0.922);
+    }
+  }
+  .home {
+    background-color:#222225;
+  }
+  .title{
+    color: whitesmoke;
+  }
+//   input{
+//       background-color: transparent;
+//   }
+// }
+}
